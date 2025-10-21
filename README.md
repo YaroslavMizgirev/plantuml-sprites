@@ -15,8 +15,10 @@
 ```plantuml
 @startuml
 
-!define DOMESTICURL https://github.com/YaroslavMizgirev/plantuml-sprites/blob/main/sprites
-!includeurl DOMESTICURL/tantor.puml
+!include  https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/YaroslavMizgirev/plantuml-sprites/refs/heads/main/sprites/tantor.puml
+
+ContainerDb(tantordb, "Tantor BE", "СУБД", "Это система управления базами данных с объектно-реляционной моделью (ORDBMS), основанная на POSTGRES, версия 4.2, разработанная группой разработчиков PostgreSQL Global Development Group.", $sprite="tantor")
 
 @enduml
 ```
