@@ -22,3 +22,11 @@ ContainerDb(tantordb, "Tantor BE", "СУБД", "Это система управ
 
 @enduml
 ```
+
+## Прочие репозитории со спрайтами
+
+[tupadr3](https://github.com/tupadr3/plantuml-icon-font-sprites/tree/main)
+
+[Unofficial PlantUML Standard Library Repositories](https://github.com/plantuml-stdlib/cicon-plantuml-sprites)
+
+[Amazon Web Services - Labs](https://github.com/awslabs/aws-icons-for-plantuml)
