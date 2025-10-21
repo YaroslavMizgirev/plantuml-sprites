@@ -1,0 +1,14 @@
+# LF для всех файлов (для кроссплатформенных проектов)
+* text=auto eol=lf
+
+# CRLF для Windows-скриптов
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Бинарные файлы (не преобразовывать)
+*.png binary
+*.jpg binary
+*.pdf binary
+
+# Игнорировать изменения прав доступа (для Linux)
+* -filemode
