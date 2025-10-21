@@ -15,7 +15,7 @@
 ```plantuml
 @startuml
 
-!define DOMESTICURL https://raw.githubusercontent.com/
+!define DOMESTICURL https://github.com/YaroslavMizgirev/plantuml-sprites/blob/main/sprites
 !includeurl DOMESTICURL/tantor.puml
 
 @enduml
