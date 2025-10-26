@@ -179,8 +179,6 @@ class SpritesListing {
         listFile.delete()
         listFile << '''# Sprites list
 
-* 🧟 marked sprites are no longer in [Gil Barbara's logos repository](https://github.com/gilbarbara/logos) and may be removed in the future. Consider stop using them and look for alternatives.
-
 | Sprite | Icon |
 |--------|------|
 '''
