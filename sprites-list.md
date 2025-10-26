@@ -1,0 +1,4 @@
+# Sprites list
+
+| Sprite | Icon |
+|--------|------|
