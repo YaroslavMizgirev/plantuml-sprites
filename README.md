@@ -2,13 +2,9 @@
 
 Иконки для схем plantuml
 
-## Структура папок
+## Список спрайтов plantuml
 
-[/pngs](./pngs/) - Иконки в формате png.
-
-[/sprites](./sprites/) - Иконки в формате puml.
-
-[/svgs](./svgs/) - Иконки в формате svg.
+[sprites list](./sprites-list.md)
 
 ## Использование
 
