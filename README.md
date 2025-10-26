@@ -6,7 +6,7 @@
 
 [sprites list](./sprites-list.md)
 
-## Использование
+## Пример использования
 
 ```plantuml
 @startuml Example
@@ -20,7 +20,7 @@
 !include MYM/tantor_logo_main_color.puml
 !include MYM/astra_linux_server_logo_black.puml
 
-Title "Схема трехзвенной архитектуры: Сервер 1С на СУБД Tantor на ОС Astra Linux"
+Title "Схема трехзвенной архитектуры на ОС Astra Linux: Сервер 1С, СУБД Tantor"
 
 Component(astra_linux_server, "Astra Linux Server", "ОС",, "", $sprite="astra_linux_server_logo_black") {
   Boundary(central_server_1C, "Центральный рабочий сервер 1C",,, "") {
