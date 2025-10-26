@@ -31,3 +31,13 @@ ContainerDb(tantordb, "Tantor BE", "СУБД", "Это система управ
 [Unofficial PlantUML Standard Library Repositories](https://github.com/plantuml-stdlib/cicon-plantuml-sprites)
 
 [Amazon Web Services - Labs](https://github.com/awslabs/aws-icons-for-plantuml)
+
+Набор спрайтов и макросов по объектам платформы 1С:Предприятие для использования в диаграммах PlantUML: [Dima Ovcharenko](https://github.com/ovcharenko-di/1ce-icons-for-plantuml)
+
+## Build
+
+Sprites are built with provided [script](script/svgsFolderUrl2plantUmlSprites.groovy). To update sprites from icons in Gil Barbara's repo just re-run:
+
+```shell
+./svgsFolderUrl2plantUmlSprites.groovy https://github.com/gilbarbara/logos/tree/main/logos
+```
