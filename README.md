@@ -11,32 +11,40 @@
 ```plantuml
 @startuml Example
 
-!include  https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
 !define MYM https://raw.githubusercontent.com/YaroslavMizgirev/plantuml-sprites/refs/heads/main/sprites
 !include MYM/1C_company_logo.puml
 !include MYM/tantor_logo_main_color.puml
+!include MYM/astra_linux_server_logo_black.puml
 
-Boundary(central_server_1C, "Центральный рабочий сервер 1C",,, "") {
-  Container(ragent, "ragent", "агент сервера", "Протокол: tcp, tcp6, udp6; Порт: 1540", $sprite="1C_company_logo")
-  Container(server_registry, "Реестр сервера", "1cv8wsrv.lst", "Расположен в каталоге данных сервера: список кластеров серверов, в состав которых входит данный рабочий сервер; список администраторов данного рабочего сервера.", $sprite="1C_company_logo")
-  ragent -right->> server_registry: "Идентификация центральных серверов кластера"
+Title "Схема трехзвенной архитектуры: Сервер 1С на СУБД Tantor на ОС Astra Linux"
 
-  Boundary(claster_server_1C, "Кластер серверов",,,, "") {
-    Container(rmngr, "rmngr", "главный менеджер кластера", "Протокол: tcp, tcp6, udp, udp6; Порт: 1541", $sprite="1C_company_logo")
-    ragent -down->> rmngr: "Управление центральным рабочим сервером"
+Component(astra_linux_server, "Astra Linux Server", "ОС",, "", $sprite="astra_linux_server_logo_black") {
+  Boundary(central_server_1C, "Центральный рабочий сервер 1C",,, "") {
+    Container(ragent, "ragent", "агент сервера", "Протокол: tcp, tcp6, udp6; Порт: 1540", $sprite="1C_company_logo")
+    Container(server_registry, "Реестр сервера", "1cv8wsrv.lst", "Расположен в каталоге данных сервера: список кластеров серверов, в состав которых входит данный рабочий сервер; список администраторов данного рабочего сервера.", $sprite="1C_company_logo")
+    ragent -right->> server_registry: "Идентификация центральных серверов кластера"
 
-    Container(claster_registry, "Реестр кластера", "1cv8clst.lst", "Хранится в каталоге данных кластера: список информационных баз, зарегистрированных в данном кластере; список рабочих серверов, входящих в кластер; список рабочих процессов, входящих в кластер; список менеджеров кластера; список сервисов кластера; список администраторов кластера.", $sprite="1C_company_logo")
-    rmngr -right->> claster_registry: "Ведение реестра кластера"
+    Boundary(claster_server_1C, "Кластер серверов",,,, "") {
+      Container(rmngr, "rmngr", "главный менеджер кластера", "Протокол: tcp, tcp6, udp, udp6; Порт: 1541", $sprite="1C_company_logo")
+      ragent -down->> rmngr: "Управление центральным рабочим сервером"
 
-    Container(rphost, "rphost", "рабочий процесс", "Протокол: tcp, tcp6, udp, udp6; Порт: 1560-1591", $sprite="1C_company_logo")
-    rmngr --down- rphost: ""
+      Container(claster_registry, "Реестр кластера", "1cv8clst.lst", "Хранится в каталоге данных кластера: список информационных баз, зарегистрированных в данном кластере; список рабочих серверов, входящих в кластер; список рабочих процессов, входящих в кластер; список менеджеров кластера; список сервисов кластера; список администраторов кластера.", $sprite="1C_company_logo")
+      rmngr -right->> claster_registry: "Ведение реестра кластера"
+
+      Container(rphost, "rphost", "рабочий процесс", "Протокол: tcp, tcp6, udp, udp6; Порт: 1560-1591", $sprite="1C_company_logo")
+      rmngr --down- rphost: ""
+    }
   }
-}
 
-Boundary(serverdb, "Сервер СУБД",,, "") {
-  ContainerDb(tantordb, "Tantor BE", "СУБД", "Это система управления базами данных с объектно-реляционной моделью (ORDBMS), основанная на POSTGRES, версия 4.2, разработанная группой разработчиков PostgreSQL Global Development Group.", $sprite="tantor_logo_main_color")
+  Boundary(serverdb, "Сервер СУБД",,, "") {
+    ContainerDb(tantordb, "Tantor BE", "СУБД", "Это система управления базами данных с объектно-реляционной моделью (ORDBMS), основанная на POSTGRES, версия 4.2, разработанная группой разработчиков PostgreSQL Global Development Group.", $sprite="tantor_logo_main_color")
+  }
+  rphost <<-down->> tantordb: "Взаимодействие с СУБД"
 }
-rphost <<-down->> tantordb: "Взаимодействие с СУБД"
 
 SHOW_LEGEND()
 
@@ -51,12 +59,14 @@ SHOW_LEGEND()
 
 [Amazon Web Services - Labs](https://github.com/awslabs/aws-icons-for-plantuml)
 
-Набор спрайтов и макросов по объектам платформы 1С:Предприятие для использования в диаграммах PlantUML: [Dima Ovcharenko](https://github.com/ovcharenko-di/1ce-icons-for-plantuml)
+[Dima Ovcharenko repo](https://github.com/ovcharenko-di/1ce-icons-for-plantuml)
+
+[Gil Barbara repo](https://github.com/gilbarbara/logos)
 
 ## Build
 
-Sprites are built with provided [script](script/svgsFolderUrl2plantUmlSprites.groovy). To update sprites from icons in Gil Barbara's repo just re-run:
+Sprites are built with provided [script](script/svgsFolderUrl2plantUmlSprites.groovy). To update sprites from icons in GitHub repo just re-run:
 
 ```shell
-./svgsFolderUrl2plantUmlSprites.groovy https://github.com/gilbarbara/logos/tree/main/logos
+./svgsFolderUrl2plantUmlSprites.groovy https://github.com/your/path/to/svgs
 ```
