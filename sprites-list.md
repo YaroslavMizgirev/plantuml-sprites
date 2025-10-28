@@ -19,3 +19,4 @@
 |sap_logo_icon|![sap_logo_icon](pngs/sap_logo_icon.png)|
 |tantor_circle_color|![tantor_circle_color](pngs/tantor_circle_color.png)|
 |tantor_logo_main_color|![tantor_logo_main_color](pngs/tantor_logo_main_color.png)|
+|microsoft-sql-server-logo|![microsoft-sql-server-logo](pngs/microsoft-sql-server-logo.png)|
