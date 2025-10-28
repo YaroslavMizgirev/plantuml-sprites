@@ -21,13 +21,13 @@
 
 AddElementTag("tantor_db", $bgColor="Orange", $fontColor="Black", $borderColor="Black", $sprite="tantor_logo_main_color,scale=0.4", $legendText="СУБД Tantor BE", $legendSprite="tantor_logo_main_color,scale=0.2", $borderStyle=SolidLine(), $borderThickness="1")
 AddElementTag("1c_all", $bgColor="Yellow", $fontColor="Red", $borderColor="Black", $shape="RoundedBoxShape()", $sprite="1C_company_logo,scale=0.3", $techn="", $legendText="Центральный рабочий сервер", $legendSprite="1C_company_logo,scale=0.1", $borderStyle="SolidLine()", $borderThickness="1")
-AddElementTag("sap_all", $bgColor="White", $fontColor="Blue", $borderColor="Black", $sprite="sap_logo_full,scale=0.3", $legendText="SAP ERP", $legendSprite="sap_logo_full,scale=0.1", $borderStyle="SolidLine()", $borderThickness="1")
+AddElementTag("sap_all", $bgColor="White", $fontColor="Blue", $borderColor="Black", $sprite="sap_logo_full,scale=0.3", $legendText="SAP ERP", $legendSprite="sap_logo_full,scale=0.08", $borderStyle="SolidLine()", $borderThickness="1")
 
-AddBoundaryTag(claster_process_1c, $bgColor="GreenYellow", $fontColor="Red", $legendText="Кластер серверов 1С")
+AddBoundaryTag(claster_process_1c, $bgColor="Yellow", $fontColor="Red", $legendText="Кластер серверов 1С")
 
-AddNodeTag(astra_linux_server_all, $sprite="astra_linux_server_logo_black,scale=1.5", $bgColor="#12a4b8ff", $borderThickness="1", $legendText="OS Astra Linux", $legendSprite="astra_linux_server_logo_black,scale=0.5")
+AddNodeTag(astra_linux_server_all, $sprite="astra_linux_server_logo_black,scale=1.5", $bgColor="#a7e1e9ff", $borderThickness="1", $legendText="OS Astra Linux", $legendSprite="astra_linux_server_logo_black,scale=0.5")
 AddNodeTag(process, $bgColor="#71d369ff", $fontColor="Black", $borderThickness="0", $legendText="Процессы")
-AddNodeTag(registry_file, $bgColor="#221fd6ff", $fontColor="White", $borderThickness="0", $legendText="Файлы реестра")
+AddNodeTag(registry_file, $bgColor="#2d9e73ff", $fontColor="White", $borderThickness="0", $legendText="Файлы реестра")
 
 Title "Схема трехзвенной архитектуры на ОС Astra Linux: Сервер 1С, СУБД Tantor"
 
@@ -53,7 +53,7 @@ Deployment_Node(astra_linux_server, "", "", "", $tags="astra_linux_server_all") 
   rphost <<-right->> sap_erp: "HTTP-сервисы"
 
   ContainerDb(tantordb, "Tantor BE", "СУБД", "Это система управления базами данных с объектно-реляционной моделью (ORDBMS), основанная на POSTGRES, версия 4.2, разработанная группой разработчиков PostgreSQL Global Development Group.", $tags="tantor_db")
-  rphost <<-down->> tantordb: "<font color=white>Взаимодействие с СУБД"
+  rphost <<-down->> tantordb: "<font color=Black>Взаимодействие с СУБД"
 }
 
 SHOW_LEGEND()
