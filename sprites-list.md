@@ -22,3 +22,4 @@
 |microsoft-sql-server-logo|![microsoft-sql-server-logo](pngs/microsoft-sql-server-logo.png)|
 |CentOS_logo|![CentOS_logo](pngs/CentOS_logo.png)|
 |Centos-logo-light|![Centos-logo-light](pngs/Centos-logo-light.png)|
+|MySQL|![MySQL](pngs/MySQL.png)|
