@@ -20,3 +20,5 @@
 |tantor_circle_color|![tantor_circle_color](pngs/tantor_circle_color.png)|
 |tantor_logo_main_color|![tantor_logo_main_color](pngs/tantor_logo_main_color.png)|
 |microsoft-sql-server-logo|![microsoft-sql-server-logo](pngs/microsoft-sql-server-logo.png)|
+|CentOS_logo|![CentOS_logo](pngs/CentOS_logo.png)|
+|Centos-logo-light|![Centos-logo-light](png/Centos-logo-light.png)|
