@@ -6,14 +6,8 @@
 |1C_company_logo|![1c_company_logo](pngs/1c_company_logo.png)|
 |apache|![apache](pngs/apache.png)|
 |astra_linux_desktop_logo_black|![astra_linux_desktop_logo_black](pngs/astra_linux_desktop_logo_black.png)|
-<!-- |astra_linux_desktop_logo_blue|![astra_linux_desktop_logo_blue](pngs/astra_linux_desktop_logo_blue.png)| -->
-<!-- |astra_linux_desktop_logo_white|![astra_linux_desktop_logo_white](pngs/astra_linux_desktop_logo_white.png)| -->
 |astra_linux_logo_black|![astra_linux_logo_black](pngs/astra_linux_logo_black.png)|
-<!-- |astra_linux_logo_color|![astra_linux_logo_color](pngs/astra_linux_logo_color.png)| -->
-<!-- |astra_linux_logo_white|![astra_linux_logo_white](pngs/astra_linux_logo_white.png)| -->
 |astra_linux_server_logo_black|![astra_linux_server_logo_black](pngs/astra_linux_server_logo_black.png)|
-<!-- |astra_linux_server_logo_blue|![astra_linux_server_logo_blue](pngs/astra_linux_server_logo_blue.png)| -->
-<!-- |astra_linux_server_logo_white|![astra_linux_server_logo_white](pngs/astra_linux_server_logo_white.png)| -->
 |centos_logo_light|![centos_logo_light](pngs/centos_logo_light.png)|
 |centos_logo|![centos_logo](pngs/centos_logo.png)|
 |microsoft_sql_server_logo|![microsoft_sql_server_logo](pngs/microsoft_sql_server_logo.png)|
