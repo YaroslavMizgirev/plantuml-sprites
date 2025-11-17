@@ -11,6 +11,7 @@
 |centos_logo_light|![centos_logo_light](pngs/centos_logo_light.png)|
 |centos_logo|![centos_logo](pngs/centos_logo.png)|
 |microsoft_sql_server_logo|![microsoft_sql_server_logo](pngs/microsoft_sql_server_logo.png)|
+|microsoft_sql_server_logo_2025|![microsoft_sql_server_logo_2025](pngs/microsoft_sql_server_logo_2025.png)|
 |mysql_logo|![mysql_logo](pngs/mysql_logo.png)|
 |nginx_logo|![nginx_logo](pngs/nginx_logo.png)|
 |nvp_bolid_logo|![nvp_bolid_logo](pngs/nvp_bolid_logo.png)|
