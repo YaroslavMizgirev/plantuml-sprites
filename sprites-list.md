@@ -20,3 +20,5 @@
 |sap_logo_icon|![sap_logo_icon](pngs/sap_logo_icon.png)|
 |tantor_circle_color|![tantor_circle_color](pngs/tantor_circle_color.png)|
 |tantor_logo_main_color|![tantor_logo_main_color](pngs/tantor_logo_main_color.png)|
+|Иконки метаданных 1С||
+|1c_catalog_{size}|![1c_catalog_400](pngs/1c_catalog_400.png)|
