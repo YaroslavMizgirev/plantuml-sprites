@@ -69,6 +69,8 @@ SHOW_LEGEND()
 [Amazon Web Services - Labs](https://github.com/awslabs/aws-icons-for-plantuml)
 
 [Dima Ovcharenko repo](https://github.com/ovcharenko-di/1ce-icons-for-plantuml)
+P.S.
+Не получилось использовать в схемах сразу.
 
 [Gil Barbara repo](https://github.com/gilbarbara/logos)
 
