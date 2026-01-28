@@ -51,7 +51,7 @@ def scaleFactor = parseScaleOption(options.s, DEFAULT_SCALE)
 
 static def parseScaleOption(scaleOption, defaultValue) {
     if (!scaleOption) return defaultValue
-    
+
     try {
         def scale = scaleOption.toDouble()
         if (scale <= 0) {
@@ -116,9 +116,9 @@ static def removeExtension(filename) {
 static def png2PlantUmlSprite(pngFile, outputDir, spriteName) {
     BufferedImage im = ImageIO.read(pngFile)
     removeAlpha(im)
-    
+
     def spriteFile = new File(outputDir, "${spriteName}.puml")
-    
+
     spriteFile.text = "@startuml\n" + SpriteUtils.encode(im, spriteName, SpriteGrayLevel.GRAY_16) + "@enduml\n"
     return spriteFile
 }
