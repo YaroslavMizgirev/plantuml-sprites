@@ -79,11 +79,25 @@ P.S.
 Cкрипт позволяет из исходного файла svg создать файл png и на его основе спрайт puml, оставляя максимально приближенные размеры к исходному изображению файла svg.
 
 > Usage: svg2png2puml.groovy [options] \<svg file>
+>-o,--output-dir       Output directory for both PNG and PUML files.
+>                      Default: current directory
 >
->-o,--output-dir       Output directory for both PNG and PUML files. Default: current directory
->
->-p,--png-dir          Output directory for PNG files (overrides --output-dir for PNG)
+>-p,--png-dir          Output directory for PNG files
+>                      (overrides --output-dir for PNG)
 >
 >-s,--sprite-name      Name for the sprite (default: derived from SVG filename)
 >
->Usage example: `./svg2png2puml.groovy -o sprites/ -p pngs/ -s spritename logo.svg`
+>Usage example: `groovy ./svg2png2puml.groovy -o sprites/ -p pngs/ -s spritename logo.svg`
+
+Скрипт позволяет из исходного файла png создать спрайт puml, позволяет корректировать размеры результирующего файла спрайта.
+
+> Usage: png2puml.groovy [options] <png file>
+> -n,--sprite-name <sprite name>   Name for the sprite (default: derived
+>                                  from PNG filename)
+>
+> -o,--output-dir <output dir>     Output directory for PUML file. Default:
+>                                  current directory
+>
+> -s,--scale <scale>               Scale of sprites. Default value: 1
+>
+>Usage example: `groovy ./png2puml.groovy -n logo.puml -o sprites/ -s 1 logo.png`
