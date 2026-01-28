@@ -1,83 +1,83 @@
 # Sprites list
 
 | Sprite | Icon                                                                                          |
-|--------|-----------------------------------------------------------------------------------------------|
-|1c_bitrix_logo| ![1c_bitrix_logo](pngs/1c_bitrix_logo.png) |
-|1C_company_logo| ![1c_company_logo](pngs/1c_company_logo.png) |
-|apache| ![apache](pngs/apache.png)                                                                    |
-|astra_linux_desktop_logo_black| ![astra_linux_desktop_logo_black](pngs/astra_linux_desktop_logo_black.png)                    |
-|astra_linux_logo_black| ![astra_linux_logo_black](pngs/astra_linux_logo_black.png)                                    |
-|astra_linux_server_logo_black| ![astra_linux_server_logo_black](pngs/astra_linux_server_logo_black.png)                      |
-|centos_logo_light| ![centos_logo_light](pngs/centos_logo_light.png)                                              |
-|centos_logo| ![centos_logo](pngs/centos_logo.png)                                                          |
-|microsoft_sql_server_logo| ![microsoft_sql_server_logo](pngs/microsoft_sql_server_logo.png)                              |
-|microsoft_sql_server_logo_2025| ![microsoft_sql_server_logo_2025](pngs/microsoft_sql_server_logo_2025.png)                    |
-|mysql_logo| ![mysql_logo](pngs/mysql_logo.png)                                                            |
-|nginx_logo| ![nginx_logo](pngs/nginx_logo.png)                                                            |
-|nvp_bolid_logo| ![nvp_bolid_logo](pngs/nvp_bolid_logo.png)                                                    |
-|postgresql_logo| ![postgresql_logo](pngs/postgresql_logo.png)                                                  |
-|sap_logo_full| ![sap_logo_full](pngs/sap_logo_full.png)                                                      |
-|sap_logo_icon| ![sap_logo_icon](pngs/sap_logo_icon.png)                                                      |
-|tantor_circle_color| ![tantor_circle_color](pngs/tantor_circle_color.png)                                          |
-|tantor_logo_main_color| ![tantor_logo_main_color](pngs/tantor_logo_main_color.png)                                    |
-|Иконки метаданных 1С|                                                                                               |
+|:-------|----------------------------------------------------------------------------------------------:|
+|1c_bitrix_logo|![1c_bitrix_logo](pngs/1c_bitrix_logo.png)|
+|1C_company_logo|![1c_company_logo](pngs/1c_company_logo.png)|
+|apache| ![apache](pngs/apache.png)|
+|astra_linux_desktop_logo_black| ![astra_linux_desktop_logo_black](pngs/astra_linux_desktop_logo_black.png)|
+|astra_linux_logo_black| ![astra_linux_logo_black](pngs/astra_linux_logo_black.png)|
+|astra_linux_server_logo_black| ![astra_linux_server_logo_black](pngs/astra_linux_server_logo_black.png)|
+|centos_logo_light| ![centos_logo_light](pngs/centos_logo_light.png)|
+|centos_logo| ![centos_logo](pngs/centos_logo.png)|
+|microsoft_sql_server_logo| ![microsoft_sql_server_logo](pngs/microsoft_sql_server_logo.png)|
+|microsoft_sql_server_logo_2025| ![microsoft_sql_server_logo_2025](pngs/microsoft_sql_server_logo_2025.png)|
+|mysql_logo| ![mysql_logo](pngs/mysql_logo.png)                                                  |
+|nginx_logo| ![nginx_logo](pngs/nginx_logo.png)                                                  |
+|nvp_bolid_logo| ![nvp_bolid_logo](pngs/nvp_bolid_logo.png)                                      |
+|postgresql_logo| ![postgresql_logo](pngs/postgresql_logo.png)                                   |
+|sap_logo_full| ![sap_logo_full](pngs/sap_logo_full.png)                                         |
+|sap_logo_icon| ![sap_logo_icon](pngs/sap_logo_icon.png)                                         |
+|tantor_circle_color| ![tantor_circle_color](pngs/tantor_circle_color.png)                       |
+|tantor_logo_main_color| ![tantor_logo_main_color](pngs/tantor_logo_main_color.png)              |
+|Иконки метаданных 1С|                                                                           |
 || Метаданные: Конфигурация                                                                      |
-|MetadataConfiguration| ![Metadata Configuration](pngs/MetadataConfiguration.png)                                     |
+|MetadataConfiguration| ![Metadata Configuration](pngs/MetadataConfiguration.png)                |
 || Метаданные: Подсистемы                                                                        |
-|MetadataSubsystems| ![Metadata Subsystems](pngs/MetadataSubsystems.png)                                           |
+|MetadataSubsystems| ![Metadata Subsystems](pngs/MetadataSubsystems.png)                         |
 || Метаданные: Общие модули                                                                      |
-|MetadataCommonModules| ![Metadata Common Modules](pngs/MetadataCommonModules.png)                                    |
+|MetadataCommonModules| ![Metadata Common Modules](pngs/MetadataCommonModules.png)               |
 || Метаданные: Параметры сеанса                                                                  |
-|MetadataSessionParameters| ![Metadata Session Parameters](pngs/MetadataSessionParameters.png)                            |
+|MetadataSessionParameters| ![Metadata Session Parameters](pngs/MetadataSessionParameters.png)   |
 || Метаданные: Роли                                                                              |
-|MetadataRoles| ![Metadata Roles](pngs/MetadataRoles.png)                                                     |
+|MetadataRoles| ![Metadata Roles](pngs/MetadataRoles.png)                                        |
 || Метаданные: Общие реквизиты                                                                   |
-|MetadataGeneralDetails| ![Metadata General Details](pngs/MetadataGeneralDetails.png)                                  |
+|MetadataGeneralDetails| ![Metadata General Details](pngs/MetadataGeneralDetails.png)            |
 || Метаданные: Планы обмена                                                                      |
-|1c_exchange_plan_85| ![1c_exchange_plan_85](pngs/1c_exchange_plan_85.png)                                          |
-|1c_exchange_plan_100| ![1c_exchange_plan_100](pngs/1c_exchange_plan_100.png)                                        |
-|1c_exchange_plan_125| ![1c_exchange_plan_125](pngs/1c_exchange_plan_125.png)                                        |
-|1c_exchange_plan_150| ![1c_exchange_plan_150](pngs/1c_exchange_plan_150.png)                                        |
-|1c_exchange_plan_175| ![1c_exchange_plan_175](pngs/1c_exchange_plan_175.png)                                        |
-|1c_exchange_plan_200| ![1c_exchange_plan_200](pngs/1c_exchange_plan_200.png)                                        |
-|1c_exchange_plan_300| ![1c_exchange_plan_300](pngs/1c_exchange_plan_300.png)                                        |
-|1c_exchange_plan_400| ![1c_exchange_plan_400](pngs/1c_exchange_plan_400.png)                                        |
-|MetadataExchangePlans| ![Metadata Exchange Plans](pngs/MetadataExchangePlans.png)                                    |
+|1c_exchange_plan_85| ![1c_exchange_plan_85](pngs/1c_exchange_plan_85.png)                       |
+|1c_exchange_plan_100| ![1c_exchange_plan_100](pngs/1c_exchange_plan_100.png)                    |
+|1c_exchange_plan_125| ![1c_exchange_plan_125](pngs/1c_exchange_plan_125.png)                    |
+|1c_exchange_plan_150| ![1c_exchange_plan_150](pngs/1c_exchange_plan_150.png)                    |
+|1c_exchange_plan_175| ![1c_exchange_plan_175](pngs/1c_exchange_plan_175.png)                    |
+|1c_exchange_plan_200| ![1c_exchange_plan_200](pngs/1c_exchange_plan_200.png)                    |
+|1c_exchange_plan_300| ![1c_exchange_plan_300](pngs/1c_exchange_plan_300.png)                    |
+|1c_exchange_plan_400| ![1c_exchange_plan_400](pngs/1c_exchange_plan_400.png)                    |
+|MetadataExchangePlans| ![Metadata Exchange Plans](pngs/MetadataExchangePlans.png)               |
 || Метаданные: Критерии отбора                                                                   |
-|MetadataSelectionCriteria| ![Metadata Selection Criteria](pngs/MetadataSelectionCriteria.png)                            |
+|MetadataSelectionCriteria| ![Metadata Selection Criteria](pngs/MetadataSelectionCriteria.png)   |
 || Метаданные: Подписки на события                                                               |
-|MetadataEventSubscription| ![Metadata Event Subscription](pngs/MetadataEventSubscription.png)                            |
+|MetadataEventSubscription| ![Metadata Event Subscription](pngs/MetadataEventSubscription.png)   |
 || Метаданные: Регламентные задания                                                              |
-|1c_scheduled_task_85| ![1c_scheduled_task_85](pngs/1c_scheduled_task_85.png)                                        |
-|1c_scheduled_task_100| ![1c_scheduled_task_100](pngs/1c_scheduled_task_100.png)                                      |
-|1c_scheduled_task_125| ![1c_scheduled_task_125](pngs/1c_scheduled_task_125.png)                                      |
-|1c_scheduled_task_150| ![1c_scheduled_task_150](pngs/1c_scheduled_task_150.png)                                      |
-|1c_scheduled_task_175| ![1c_scheduled_task_175](pngs/1c_scheduled_task_175.png)                                      |
-|1c_scheduled_task_200| ![1c_scheduled_task_200](pngs/1c_scheduled_task_200.png)                                      |
-|1c_scheduled_task_300| ![1c_scheduled_task_300](pngs/1c_scheduled_task_300.png)                                      |
-|1c_scheduled_task_400| ![1c_scheduled_task_400](pngs/1c_scheduled_task_400.png)                                      |
-|MetadataScheduledTasks| ![Metadata Scheduled Tasks](pngs/MetadataScheduledTasks.png)                                  |
+|1c_scheduled_task_85| ![1c_scheduled_task_85](pngs/1c_scheduled_task_85.png)                    |
+|1c_scheduled_task_100| ![1c_scheduled_task_100](pngs/1c_scheduled_task_100.png)                 |
+|1c_scheduled_task_125| ![1c_scheduled_task_125](pngs/1c_scheduled_task_125.png)                 |
+|1c_scheduled_task_150| ![1c_scheduled_task_150](pngs/1c_scheduled_task_150.png)                 |
+|1c_scheduled_task_175| ![1c_scheduled_task_175](pngs/1c_scheduled_task_175.png)                 |
+|1c_scheduled_task_200| ![1c_scheduled_task_200](pngs/1c_scheduled_task_200.png)                 |
+|1c_scheduled_task_300| ![1c_scheduled_task_300](pngs/1c_scheduled_task_300.png)                 |
+|1c_scheduled_task_400| ![1c_scheduled_task_400](pngs/1c_scheduled_task_400.png)                 |
+|MetadataScheduledTasks| ![Metadata Scheduled Tasks](pngs/MetadataScheduledTasks.png)            |
 || Метаданные: Боты                                                                              |
-|MetadataBots| ![Metadata Bots](pngs/MetadataBots.png)                                                       |
+|MetadataBots| ![Metadata Bots](pngs/MetadataBots.png)                                           |
 || Метаданные: Функциональные опции                                                              |
-|MetadataFunctionalOptions| ![Metadata Functional Options](pngs/MetadataFunctionalOptions.png)                            |
+|MetadataFunctionalOptions| ![Metadata Functional Options](pngs/MetadataFunctionalOptions.png)   |
 || Метаданные: Параметры функциональных опций                                                    |
 |MetadataParametersOfFunctionalOptions| ![Metadata Parameters Of Functional Options](pngs/MetadataParametersOfFunctionalOptions.png)  |
 || Метаданные: Определяемые типы                                                                 |
-|MetadataDefinedTypes| ![Metadata Defined Types](pngs/MetadataDefinedTypes.png)                                      |
-|MetadataDefinedType| ![Metadata Defined Type](pngs/MetadataDefinedType.png)                                        |
+|MetadataDefinedTypes| ![Metadata Defined Types](pngs/MetadataDefinedTypes.png)                  |
+|MetadataDefinedType| ![Metadata Defined Type](pngs/MetadataDefinedType.png)                     |
 || Метаданные: Хранилища настроек                                                                |
 |MetadataOfTheSettingsStore| ![Metadata Of The Settings Store](pngs/MetadataOfTheSettingsStore.png)                        |
 || Метаданные: Общие команды                                                                     |
-|MetadataCommonCommands| ![Metadata Common Commands](pngs/MetadataCommonCommands.png)                                  |
+|MetadataCommonCommands| ![Metadata Common Commands](pngs/MetadataCommonCommands.png)            |
 || Метаданные: Группы команд                                                                     |
-|MetadataCommandGroup| ![Metadata Command Group](pngs/MetadataCommandGroup.png)                                      |
+|MetadataCommandGroup| ![Metadata Command Group](pngs/MetadataCommandGroup.png)                  |
 || Метаданные: Общие формы                                                                       |
-|MetadataGeneralForms| ![Metadata General Forms](pngs/MetadataGeneralForms.png)                                      |
+|MetadataGeneralForms| ![Metadata General Forms](pngs/MetadataGeneralForms.png)                  |
 || Метаданные: Интерфейсы                                                                        |
 ||                                                                                               |
 || Метаданные: Общие макеты                                                                      |
-|MetadataGeneralLayouts| ![MetadataGeneralLayouts](pngs/MetadataGeneralLayouts.png)                                                                                    |
+|MetadataGeneralLayouts| ![MetadataGeneralLayouts](pngs/MetadataGeneralLayouts.png)              |
 || Метаданные: Общие картинки                                                                    |
 |MetadataPublicImages| ![MetadataPublicImages](pngs/MetadataPublicImages.png)                                        |
 || Метаданные: XDTO-пакеты                                                                       |
@@ -99,7 +99,7 @@
 || Метаданные: Языки                                                                             |
 |MetadataLanguages| ![Metadata Languages](pngs/MetadataLanguages.png)                                             |
 || Метаданные: Константы                                                                         |
-|1c_constant_85| ![1c_constant_85](pngs/1c_constant_85.png)                                                    |
+| 1c_constant_85 | ![1c_constant_85](pngs/1c_constant_85.png) |
 |1c_constant_100| ![1c_constant_100](pngs/1c_constant_100.png)                                                  |
 |1c_constant_125| ![1c_constant_125](pngs/1c_constant_125.png)                                                  |
 |1c_constant_150| ![1c_constant_150](pngs/1c_constant_150.png)                                                  |
